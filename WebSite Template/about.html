@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Raina's Playground!</title>
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background: #fff;
+        }
+        ::selection {
+            color: #fff;
+            background: #ff7979;
+        }
+        .wrapper {
+            max-width: 1080px;
+            margin: 50px auto;
+            padding: 0 20px;
+            position: relative;
+        }
+        .wrapper .center-line {
+            position: absolute;
+            height: 100%;
+            width: 4px;
+            background: #040406;
+            left: 50%;
+            top: 20px;
+            transform: translateX(-50%);
+        }
+        .wrapper .row {
+            display: flex;
+        }
+        .wrapper .row-1 {
+            justify-content: flex-start;
+        }
+        .wrapper .row-2 {
+            justify-content: flex-end;
+        }
+        .wrapper .row section {
+            background: #d31aab;
+            color: white;
+            border-radius: 5px;
+            width: calc(50% - 40px);
+            padding: 30px;
+            position: relative;
+        }
+        .wrapper .row section::before {
+            position: absolute;
+            content: "";
+            height: 15px;
+            width: 15px;
+            background: #8306ad;
+            top: 28px;
+            z-index: -1;
+            transform: rotate(45deg);
+        }
+        .row-1 section::before {
+            right: -7px;
+        }
+        .row-2 section::before {
+            left: -7px;
+        }
+        .row section .icon,
+        .center-line .scroll-icon {
+            position: absolute;
+            background: #f2f2f2;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            font-size: 17px;
+            box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+        }
+        .center-line .scroll-icon {
+            bottom: 0px;
+            left: 50%;
+            font-size: 25px;
+            transform: translateX(-50%);
+        }
+        .row-1 section .icon {
+            top: 15px;
+            right: -60px;
+        }
+        .row-2 section .icon {
+            top: 15px;
+            left: -60px;
+        }
+        .row section .details,
+        .row section .bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .row section .details .title {
+            font-size: 22px;
+            font-weight: 600;
+            color: white;
+        }
+        .row section p {
+            margin: 10px 0 17px 0;
+        }
+        .row section .bottom a {
+            text-decoration: none;
+            background: #e209a8;
+            color: #fff;
+            padding: 7px 15px;
+            border-radius: 5px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+        }
+        .row section .bottom a:hover {
+            transform: scale(0.97);
+        }
+        @media(max-width: 790px) {
+            .wrapper .center-line {
+                left: 40px;
+            }
+            .wrapper .row {
+                margin: 30px 0 3px 60px;
+            }
+            .wrapper .row section {
+                width: 100%;
+            }
+            .row-1 section::before {
+                left: -7px;
+            }
+            .row-1 section .icon {
+                left: -60px;
+            }
+        }
+        @media(max-width: 440px) {
+            .wrapper .center-line,
+            .row section::before,
+            .row section .icon {
+                display: none;
+            }
+            .wrapper .row {
+                margin: 10px 0;
+            }
+            .row section {
+                color: white;
+            }
+        }
+        ul.sub-bullet {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .content-container {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body class="sub_page">
+    <div class="hero_area">
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="index.html">
+                        <span>Raina's Playground!</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="s-1"> </span>
+                        <span class="s-2"> </span>
+                        <span class="s-3"> </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="japan.html">JAPAN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="korea.html">KOREA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="usa.html">U.S.A</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+
+    <!-- about section -->
+    <section class="about_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <div class="heading_container" style="margin-bottom:0; padding-bottom: 0;">
+                         <h2 style="margin-bottom: 0; padding-bottom: 0;">About Us</h2>
+                        </div>
+                            <p>
+                                I have experiences living in Korea, the United States, Singapore, and Japan. These diverse experiences have enriched my understanding of various cultures and have shaped who I am today. Currently, I am studying at Tokyo Woman's Christian University in Japan, where I am continuing to expand my knowledge and skills.</p>
+                            <p>
+                                Photography is one of my greatest passions. I love capturing moments and telling stories through my lens. Whether it's with my smartphone, digital camera, film camera, or Polaroid camera, I enjoy experimenting with different formats and styles. Each photograph allows me to express my creativity and connect with others on a deeper level.
+                            </p>
+                            <p>    
+                                As I continue my journey, I am excited to share my experiences and insights with you through this website. I hope to inspire others to see the world through a different lens and to appreciate the small, beautiful moments that make life extraordinary. 
+                            </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="img_container">
+                        <div class="img-box b1">
+                            <img src="images/about_img1.jpeg" alt="">
+                        </div>
+                        <div class="img-box b2">
+                            <img src="images/about_img2.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="info_contact">
+        <div class="row">
+          <div class="col-md-4">
+              <img src="images/location-white.png" alt="">
+              <span>
+                東京女子大学
+              </span>
+          </div>
+          <div class="col-md-4">
+              <img src="images/telephone-white.png" alt="">
+              <span>
+                Call : +819012411822
+              </span>
+          </div>
+          <div class="col-md-4">
+              <img src="images/envelope-white.png" alt="">
+              <span>
+                minseul0408@gmail.com
+              </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info_form">
+            <form action="">
+              <input type="text" placeholder="Enter your email">
+              <button>
+                subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="info_social">
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/fb.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-9 mx-auto">
+          <p>
+            &copy; 2024 All Rights Reserved By
+            <a href="https://www.twcu.ac.jp/main/english/index.html" target ="_blank">Tokyo Woman's Christian Universtiy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+  
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
