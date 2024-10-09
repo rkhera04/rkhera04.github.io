@@ -1,0 +1,9 @@
+<li style="--accent-color:#34a3e9"></li>
+            <div class="date">September 2024 ~ Present</div>
+            <div class="content-wrapper">
+              <div class="title"><strong>Professor Daisuke Kihara's Lab</strong> - Undergraduate Researcher</div>
+              <div class="descr">
+                Developing deep learning computational methods to perform Protein Function Prediction (PFP) in medical patients
+              </div>
+            </div>
+          </li>
