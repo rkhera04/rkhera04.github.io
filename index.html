@@ -33,12 +33,11 @@
 <body>
 
   <div class="hero_area">
-    <!-- header section strats -->
+    <!-- header section starts -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
-            <!-- <img src="images/logo.png" alt=""> TODO: LOGO -->
             <span>
               Raj Khera's Website <!-- TODO: Select TITLE-->
             </span>
@@ -51,21 +50,21 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="experience.html"> EXPERIENCE </a>
+                  <a class="nav-link" href="index.html#experience"> EXPERIENCE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="projects.html"> PROJECTS </a>
+                  <a class="nav-link" href="index.html#projects"> PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="coursework.html"> COURSEWORK </a>
+                  <a class="nav-link" href="index.html#coursework"> COURSEWORK</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact </a>
+                  <a class="nav-link" href="index.html#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -132,267 +131,273 @@
   </div>
   
   <!-- Experience section -->
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="heading_container" style="margin-bottom: 0; padding-bottom: 0;">
-        <h2>Work Experience</h2>
+  <section id="experience">
+    <section class="blog_section layout_padding">
+      <div class="container">
+        <div class="heading_container" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2>Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <ul>
+
+            <li style="--accent-color:#34a3e9">
+              <div class="date">September 2024 ~ Present</div>
+              <div class="content-wrapper">
+                <div class="title">
+                  <a href="https://kiharalab.org" target="_blank"><strong>Professor Kihara's Lab</strong></a>
+                </div>
+                <div class="role">Undergraduate Researcher</div>
+                <div class="descr">
+                  Developing deep learning computational methods to perform Protein Function Prediction (PFP) in medical patients
+                </div>
+              </div>
+            </li>
+
+            <li style="--accent-color:#34a3e9">
+              <div class="date">May 2024 ~ August 2024</div>
+              <div class="content-wrapper">
+                <div class="title">
+                  <a href="https://www.stryker.com/us/en/index.html" target="_blank"><strong>Stryker</strong></a>
+                </div>
+                <div class="role">Data Science Intern</div>
+                <div class="descr">
+                  Developed a full-stack LLM chatbot used by employees to aid in financial planning and efficient information retrieval
+                  Tested time series algorithms to forecast over 300,000 SKUs and improve model test pipelines
+                </div>
+              </div>
+            </li>
+
+            <li style="--accent-color:#34a3e9">
+              <div class="date">August 2023 ~ Present</div>
+              <div class="content-wrapper">
+                <div class="title">
+                  <a href="https://www.cs.purdue.edu" target="_blank"><strong>Purdue University</strong></a>
+                </div>
+                <div class="role">Undergraduate Teaching Assistant</div>
+                <div class="descr">
+                  Work with faculty to facilitate lab sessions, teach curriculum, and hold office hours for over 100+ students
+                  Teach the fundamentals of Object-Oriented Programming, Dynamic/Recursive Data Structures, and Graph Theory
+                </div>
+              </div>
+            </li>
+        
+            <li style="--accent-color:#34a3e9">
+              <div class="date">August 2023 ~ December 2023</div>
+              <div class="content-wrapper">
+                <div class="title">
+                  <a href="https://www.merck.com" target="_blank"><strong>Merck & Co</strong></a>
+                </div>
+                <div class="role">Data Science Researcher</div>
+                <div class="descr">
+                  Designed an NLP model in Python using LDA and BERT to extract data from 500+ webscraped research papers; input documents in a searchable database to enable easier data access by the Merck research team
+                </div>
+              </div>
+            </li>
+
+            <li style="--accent-color:#34a3e9">
+              <div class="date">August 2022 ~ May 2023</div>
+              <div class="content-wrapper">
+                <div class="title">
+                  <a href="https://www.keystonecoop.com" target="_blank"><strong>Keystone Cooperative</strong></a>
+                </div>
+                <div class="role">Data Science Researcher</div>
+                <div class="descr">
+                  Developed fuzzy matching algorithms with Python to consolidate 700,000 disjointed customer accounts into one master account per customer
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
       </div>
-
-      <div class="timeline">
-        <ul>
-
-          <li style="--accent-color:#34a3e9">
-            <div class="date">September 2024 ~ Present</div>
-            <div class="content-wrapper">
-              <div class="title">
-                <a href="https://kiharalab.org" target="_blank"><strong>Professor Kihara's Lab</strong></a>
-              </div>
-              <div class="role">Undergraduate Researcher</div>
-              <div class="descr">
-                Developing deep learning computational methods to perform Protein Function Prediction (PFP) in medical patients
-              </div>
-            </div>
-          </li>
-
-          <li style="--accent-color:#34a3e9">
-            <div class="date">August 2023 ~ Present</div>
-            <div class="content-wrapper">
-              <div class="title">
-                <a href="https://www.cs.purdue.edu" target="_blank"><strong>Purdue University</strong></a>
-              </div>
-              <div class="role">Undergraduate Teaching Assistant</div>
-              <div class="descr">
-                Work with faculty to facilitate lab sessions, teach curriculum, and hold office hours for over 100+ students
-                Teach the fundamentals of Object-Oriented Programming, Dynamic/Recursive Data Structures, and Graph Theory
-              </div>
-            </div>
-          </li>
-
-          <li style="--accent-color:#34a3e9">
-            <div class="date">May 2024 ~ August 2024</div>
-            <div class="content-wrapper">
-              <div class="title">
-                <a href="https://www.stryker.com/us/en/index.html" target="_blank"><strong>Stryker</strong></a>
-              </div>
-              <div class="role">Data Science Intern</div>
-              <div class="descr">
-                Developed a full-stack LLM chatbot used by employees to aid in financial planning and efficient information retrieval
-                Tested time series algorithms to forecast over 300,000 SKUs and improve model test pipelines
-              </div>
-            </div>
-          </li>
       
-          <li style="--accent-color:#34a3e9">
-            <div class="date">August 2023 ~ December 2023</div>
-            <div class="content-wrapper">
-              <div class="title">
-                <a href="https://www.merck.com" target="_blank"><strong>Merck & Co</strong></a>
-              </div>
-              <div class="role">Data Science Researcher</div>
-              <div class="descr">
-                Designed an NLP model in Python using LDA and BERT to extract data from 500+ webscraped research papers; input documents in a searchable database to enable easier data access by the Merck research team
-              </div>
-            </div>
-          </li>
-
-          <li style="--accent-color:#34a3e9">
-            <div class="date">August 2023 ~ May 2023</div>
-            <div class="content-wrapper">
-              <div class="title">
-                <a href="https://www.keystonecoop.com" target="_blank"><strong>Keystone Cooperative</strong></a>
-              </div>
-              <div class="role">Data Science Researcher</div>
-              <div class="descr">
-                Developed fuzzy matching algorithms with Python to consolidate 700,000 disjointed customer accounts into one master account per customer
-              </div>
-            </div>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-    
+    </section>
   </section>
 <!-- end Experience section -->
 
 
 
-  <!-- Projects section -->
-  <section class="blog_section layout_padding">
-    <div class="container">
-      <div class="heading_container" style="margin-bottom: 0; padding-bottom: 0;">
-        <h2>Projects</h2>
+<!-- Projects section -->
+  <section id="projects">
+    <section class="blog_section layout_padding">
+      <div class="container">
+        <div class="heading_container" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2>Projects</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/projects/learnlink_proj.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h3><strong>LearnerLink AI</strong></h3>
+                <h6 style="font-weight: normal;">April 2024</h6>
+                <br> 
+                <ul>
+                  <li>Designed a Machine Reading Comprehension (MRC) system and fine-tuned Google's mT5 model, linking topics from 
+                    End of Chapter Questions to relevant sections of the text and enhancing study strategies. </li>
+                  <li>Competed against 60+ hackers and won Datafest, receiving awards for “Best in Show” and “Best Use of Outside Data”</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/projects/CV_image.jpeg" alt="">
+              </div>
+              <div class="detail-box">
+                <h3><strong>Diabetic Retinopathy Image Classifier</strong></h3>
+                <h6 style="font-weight: normal;">July 2024 ~ September 2024</h6>
+                <br> 
+                <ul>
+                  <li>Utilized Convolutional Neural Networks (CNN) using Python for multi-class categorization of diabetic retinopathy severity</li>
+                  <li>Performed image augmentation using various techniques on 90GB of image data, blending left and right eye images and tuning 
+                    model parameters to achieve 81% accuracy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/projects/recommend_proj.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h3><strong>Research Paper Recommendation System</strong></h3>
+                <h6 style="font-weight: normal;">August 2024 ~ September 2024</h6>
+                <br> 
+                <ul>
+                  <li>Developed a full-stack content-based recommendation system by web-scraping over 5,000+ research and conference papers</li>
+                  <li>Performed hyperparameter tuning, preprocessing, and vectorization techniques to list similar papers and increase recommendation accuracy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/projects/purduecs_logo.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h3><strong>Online Clothing Marketplace</strong></h3>
+                <h6 style="font-weight: normal;">September 2022 ~ December 2022</h6>
+                <br> 
+                <ul>
+                  <li>Designed and created an online clothing marketplace for sellers and customers in Java</li>
+                  <li>Implemented client/server connection, concurrency, GUIs, and access control to the application</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/projects/learnlink_proj.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h3><strong>LearnerLink AI</strong></h3>
-              <h6 style="font-weight: normal;">April 2024</h6>
-              <br> 
-              <ul>
-                <li>Designed a Machine Reading Comprehension (MRC) system and fine-tuned Google's mT5 model, linking topics from 
-                  End of Chapter Questions to relevant sections of the text and enhancing study strategies. </li>
-                <li>Competed against 60+ hackers and won Datafest, receiving awards for “Best in Show” and “Best Use of Outside Data”</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/projects/CV_image.jpeg" alt="">
-            </div>
-            <div class="detail-box">
-              <h3><strong>Diabetic Retinopathy Image Classifier</strong></h3>
-              <h6 style="font-weight: normal;">July 2024 ~ September 2024</h6>
-              <br> 
-              <ul>
-                <li>Utilized Convolutional Neural Networks (CNN) using Python for multi-class categorization of diabetic retinopathy severity</li>
-                <li>Performed image augmentation using various techniques on 90GB of image data, blending left and right eye images and tuning 
-                  model parameters to achieve 81% accuracy</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/projects/recommend_proj.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h3><strong>Research Paper Recommendation System</strong></h3>
-              <h6 style="font-weight: normal;">August 2024 ~ September 2024</h6>
-              <br> 
-              <ul>
-                <li>Developed a full-stack content-based recommendation system by web-scraping over 5,000+ research and conference papers</li>
-                <li>Performed hyperparameter tuning, preprocessing, and vectorization techniques to list similar papers and increase recommendation accuracy</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/projects/purduecs_logo.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h3><strong>Online Clothing Marketplace</strong></h3>
-              <h6 style="font-weight: normal;">September 2022 ~ December 2022</h6>
-              <br> 
-              <ul>
-                <li>Designed and created an online clothing marketplace for sellers and customers in Java</li>
-                <li>Implemented client/server connection, concurrency, GUIs, and access control to the application</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
+    </section>
   </section>
 <!-- end Projects section -->
 
-  <!-- Classwork section -->
-<section class="blog_section layout_padding">
-  <div class="container">
-    <div class="heading_container" style="margin-bottom: 0; padding-bottom: 0;">
-      <h2>Classwork</h2>
-    </div>
-    <div class="row">
-      <!-- Column for Math & Statistics Coursework -->
-      <div class="col-md-6">
-        <div class="box large-box">
-          <h3>Computer Science Coursework</h3>
-          <ul>
-            <li>Data Mining & Machine Learning</li>
-            <li>Artificial Intelligence</li>
-            <li>Data Structures & Algorithms</li>
-            <li>Python Programming</li>
-            <li>C Programming</li>
-            <li>Computer Architecture</li>
-            <li>Object Oriented Programming</li>
-          </ul>
+<!-- Classwork section -->
+  <section id="coursework">
+    <section class="blog_section layout_padding">
+      <div class="container">
+        <div class="heading_container" style="margin-bottom: 0; padding-bottom: 0;">
+          <h2>Classwork</h2>
+        </div>
+        <div class="row">
+          <!-- Column for Math & Statistics Coursework -->
+          <div class="col-md-6">
+            <div class="box large-box">
+              <h3>Computer Science Coursework</h3>
+              <ul>
+                <li>Data Mining & Machine Learning</li>
+                <li>Artificial Intelligence</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Python Programming</li>
+                <li>C Programming</li>
+                <li>Computer Architecture</li>
+                <li>Object Oriented Programming</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Column for Computer Science Coursework -->
+          <div class="col-md-6">
+            <div class="box large-box">
+              <h3>Math/Statistics Coursework</h3>
+              <ul>
+                <li>Statistical Theory</li>
+                <li>Probability</li>
+                <li>Data Science Statistics</li>
+                <li>Discrete Math</li>
+                <li>Linear Algebra</li>
+                <li>Multivariable Calculus</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- Column for Computer Science Coursework -->
-      <div class="col-md-6">
-        <div class="box large-box">
-          <h3>Math/Statistics Coursework</h3>
-          <ul>
-            <li>Statistical Theory</li>
-            <li>Probability</li>
-            <li>Data Science Statistics</li>
-            <li>Discrete Math</li>
-            <li>Linear Algebra</li>
-            <li>Multivariable Calculus</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+  </section>
 <!-- end Classwork section -->
 
 
 
-  <!-- contact section -->
-
-  <section class="contact_section layout_padding">
-    <div class="container ">
-      <div class="heading_container">
-        <h2>
-          Contact Me
-        </h2>
-        <!-- TODO: Select whether insert logo or not -->
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <form action="">
-            <div>
-              <input type="text" placeholder="Name" />
-            </div>
-            <div>
-              <input type="email" placeholder="Email" />
-            </div>
-            <div>
-              <input type="text" placeholder="Phone Number" />
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Message" />
-            </div>
-            <div class="d-flex ">
-              <button>
-                SEND
-              </button>
-            </div>
-          </form>
+<!-- Contact section -->
+  <section id="contact">
+    <section class="contact_section layout_padding">
+      <div class="container ">
+        <div class="heading_container">
+          <h2>
+            Contact Me
+          </h2>
+          <!-- TODO: Select whether insert logo or not -->
         </div>
-        <div class="col-md-6">
-          <div class="map_container">
-            <div class="map-responsive">
-              <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBtsuaOE4ynzBQeUJ9x-w8dJtpSovBDuNg&q=도쿄+여자+대학" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
-             -->
-             <gmp-map center="40.425715,-86.914284" zoom="16" map-id="DEMO_MAP_ID" style="width: 100%; height: 100%;">
-              <gmp-advanced-marker position="40.425715,-86.914284" title="My location"></gmp-advanced-marker>
-            </gmp-map>
-      
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <form action="">
+              <div>
+                <input type="text" placeholder="Name" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
+              </div>
+              <div class="d-flex ">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="map_container">
+              <div class="map-responsive">
+                <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBtsuaOE4ynzBQeUJ9x-w8dJtpSovBDuNg&q=도쿄+여자+대학" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+              -->
+              <gmp-map center="40.425715,-86.914284" zoom="16" map-id="DEMO_MAP_ID" style="width: 100%; height: 100%;">
+                <gmp-advanced-marker position="40.425715,-86.914284" title="My location"></gmp-advanced-marker>
+              </gmp-map>
+        
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
-  <!-- end contact section -->
+<!-- end contact section -->
 
 
   <!-- info section -->
-
   <section class="info_section layout_padding">
     <div class="container">
       <div class="info_contact">
